@@ -1,0 +1,211 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-13T05:01:05.507Z",
+    "end": "2019-05-13T05:01:05.976Z",
+    "duration": 469,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "7f240ce3-0edf-42c1-a7f5-f50b22cfdefd",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "28647e0f-879d-48ae-bb9e-e19ebb743da6",
+        "title": "Axios Tests",
+        "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
+        "file": "/test/axios-sample-test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "1da84df0-0423-49f6-8d83-f9183f9df587",
+            "title": "#indexOf()",
+            "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
+            "file": "/test/axios-sample-test.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "should return -1 when the value is not present",
+                "fullTitle": "Axios Tests #indexOf() should return -1 when the value is not present",
+                "timedOut": false,
+                "duration": 1,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
+                "err": {},
+                "isRoot": false,
+                "uuid": "38c470f4-6b61-4523-8e8a-7cb69290af9e",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "should return 1 when index is 2",
+                "fullTitle": "Axios Tests #indexOf() should return 1 when index is 2",
+                "timedOut": false,
+                "duration": 0,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "assert.equal([1, 2, 3].indexOf(3), 2)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "d8abf8e9-6eac-4354-917f-c82ba6f6fff3",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "38c470f4-6b61-4523-8e8a-7cb69290af9e",
+              "d8abf8e9-6eac-4354-917f-c82ba6f6fff3"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 1,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          },
+          {
+            "uuid": "beba1a80-1bbf-45ac-b94a-aa655bcd5495",
+            "title": "#pokemon-get",
+            "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
+            "file": "/test/axios-sample-test.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
+                "fullTitle": "Axios Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
+                "timedOut": false,
+                "duration": 258,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        expect(response.data.abilities[0].ability.name).to.equal('lightning-rod');\n        expect(response.data.abilities[0].ability.url).to.equal('https://pokeapi.co/api/v2/ability/31/');\n        // assert.equals(response.abilities[0].ability.name, 'lightning-rod');\n    });",
+                "err": {},
+                "isRoot": false,
+                "uuid": "8307107c-e0fb-45b3-9607-35a694a9b9f0",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "8307107c-e0fb-45b3-9607-35a694a9b9f0"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 258,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      },
+      {
+        "uuid": "c8f56914-8b6b-4956-8386-1d63b6712168",
+        "title": "Soft-Assert Tests",
+        "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-soft-assert-test.js",
+        "file": "/test/axios-soft-assert-test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [],
+        "suites": [
+          {
+            "uuid": "1fdfd430-f5da-4516-97b3-804880726f20",
+            "title": "#pokemon-get",
+            "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-soft-assert-test.js",
+            "file": "/test/axios-soft-assert-test.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
+                "fullTitle": "Soft-Assert Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
+                "timedOut": false,
+                "duration": 188,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        softAssert.softAssert(response.data.abilities[0].ability.name, 'lightning-rod', 'name expected is lightning-rod', true);\n        softAssert.softAssert(response.data.abilities[0].ability.url, 'https://pokeapi.co/api/v2/ability/31/', 'url expected is https://pokeapi.co/api/v2/ability/31/', true);\n        softAssert.softAssertAll();\n    });",
+                "err": {},
+                "isRoot": false,
+                "uuid": "462d2362-3705-4d99-991b-4671a5a377ce",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "462d2362-3705-4d99-991b-4671a5a377ce"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 188,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          }
+        ],
+        "passes": [],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2019
+}

@@ -1,34 +1,80 @@
 {
   "stats": {
-    "suites": 8,
-    "tests": 10,
-    "passes": 10,
+    "suites": 9,
+    "tests": 11,
+    "passes": 11,
     "pending": 0,
     "failures": 0,
-    "start": "2019-05-13T05:35:57.203Z",
-    "end": "2019-05-13T05:35:57.676Z",
-    "duration": 473,
-    "testsRegistered": 10,
-    "passPercent": 100,
+    "start": "2019-05-13T06:21:47.173Z",
+    "end": "2019-05-13T06:21:47.881Z",
+    "duration": 708,
+    "testsRegistered": 14,
+    "passPercent": 78.6,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
-    "skipped": 0,
-    "hasSkipped": false,
-    "passPercentClass": "success",
+    "skipped": 3,
+    "hasSkipped": true,
+    "passPercentClass": "warning",
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "a89cb9f0-5a62-4426-a432-1ae43a225d76",
+    "uuid": "1f8746e1-8a29-4f7e-b516-cf7e326d0cea",
     "title": "",
     "fullFile": "",
     "file": "",
     "beforeHooks": [],
     "afterHooks": [],
-    "tests": [],
+    "tests": [
+      {
+        "title": "should return -1 when the csv-data-driven value is not present",
+        "fullTitle": "should return -1 when the csv-data-driven value is not present",
+        "timedOut": false,
+        "duration": 0,
+        "pass": false,
+        "fail": false,
+        "pending": false,
+        "code": "return f.call(this,testData)",
+        "err": {},
+        "isRoot": true,
+        "uuid": "af8c70f8-2e10-4869-93f2-15fd924cce31",
+        "isHook": false,
+        "skipped": true
+      },
+      {
+        "title": "should return -1 when the csv-data-driven value is not present",
+        "fullTitle": "should return -1 when the csv-data-driven value is not present",
+        "timedOut": false,
+        "duration": 0,
+        "pass": false,
+        "fail": false,
+        "pending": false,
+        "code": "return f.call(this,testData)",
+        "err": {},
+        "isRoot": true,
+        "uuid": "2a3ffce3-1812-4ad6-beae-dcc409523bd4",
+        "isHook": false,
+        "skipped": true
+      },
+      {
+        "title": "should return -1 when the csv-data-driven value is not present",
+        "fullTitle": "should return -1 when the csv-data-driven value is not present",
+        "timedOut": false,
+        "duration": 0,
+        "pass": false,
+        "fail": false,
+        "pending": false,
+        "code": "return f.call(this,testData)",
+        "err": {},
+        "isRoot": true,
+        "uuid": "d48f3507-fbfe-47b8-9694-b2374f2c0d9f",
+        "isHook": false,
+        "skipped": true
+      }
+    ],
     "suites": [
       {
-        "uuid": "7151e5b0-55e1-41a0-8610-7226326da541",
+        "uuid": "1554bba9-ccfe-48de-a976-31ae5a9b7257",
         "title": "Data-driven Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-datadriven-test.js",
         "file": "/test/axios-datadriven-test.js",
@@ -37,7 +83,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "af35f434-679a-496a-9f50-1be4b3b18e5f",
+            "uuid": "7277fa03-f7fb-465d-9331-c5037dcaf171",
             "title": "#simple-datadriven-test",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-datadriven-test.js",
             "file": "/test/axios-datadriven-test.js",
@@ -48,7 +94,7 @@
                 "title": "should return -1 when the data-driven value is not present",
                 "fullTitle": "Data-driven Tests #simple-datadriven-test should return -1 when the data-driven value is not present",
                 "timedOut": false,
-                "duration": 2,
+                "duration": 16,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -57,7 +103,24 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "8a2c33af-99fc-4545-b991-e6bbb9d0de54",
+                "uuid": "c42804aa-7d67-4ae7-803e-c190c32d9f67",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "should return -1 when the data-driven value is not present",
+                "fullTitle": "Data-driven Tests #simple-datadriven-test should return -1 when the data-driven value is not present",
+                "timedOut": false,
+                "duration": 1,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return f.call(this,testData)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "1a79a819-005e-4e70-bf3c-1179319e625c",
                 "isHook": false,
                 "skipped": false
               },
@@ -74,44 +137,27 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "7fdcd0c6-42be-4bb8-a2a4-b54b28452a9f",
-                "isHook": false,
-                "skipped": false
-              },
-              {
-                "title": "should return -1 when the data-driven value is not present",
-                "fullTitle": "Data-driven Tests #simple-datadriven-test should return -1 when the data-driven value is not present",
-                "timedOut": false,
-                "duration": 0,
-                "state": "passed",
-                "speed": "fast",
-                "pass": true,
-                "fail": false,
-                "pending": false,
-                "code": "return f.call(this,testData)",
-                "err": {},
-                "isRoot": false,
-                "uuid": "bfc79bc1-fec0-4b98-a8fb-6823036643d0",
+                "uuid": "2b60b9ed-7146-40c4-8eac-c2b49103336f",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "8a2c33af-99fc-4545-b991-e6bbb9d0de54",
-              "7fdcd0c6-42be-4bb8-a2a4-b54b28452a9f",
-              "bfc79bc1-fec0-4b98-a8fb-6823036643d0"
+              "c42804aa-7d67-4ae7-803e-c190c32d9f67",
+              "1a79a819-005e-4e70-bf3c-1179319e625c",
+              "2b60b9ed-7146-40c4-8eac-c2b49103336f"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 2,
+            "duration": 17,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "33d39f3c-e160-4ade-bf07-17040a9fe9e4",
+            "uuid": "32f6125d-16b5-457c-81e5-8f2da7b19921",
             "title": "#json-datadriven-test",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-datadriven-test.js",
             "file": "/test/axios-datadriven-test.js",
@@ -131,7 +177,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "113718e3-753a-453b-aa6a-1740a13df239",
+                "uuid": "32cbe64d-6ce7-427c-b297-1ad066da9d9b",
                 "isHook": false,
                 "skipped": false
               },
@@ -148,7 +194,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "5bbcd970-7aab-47cb-a4e5-5aeb314c8578",
+                "uuid": "83929344-a1c4-4651-9d01-54f6e56f0f34",
                 "isHook": false,
                 "skipped": false
               },
@@ -165,21 +211,59 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "75c780c9-c254-4f81-854c-4f3565e0f533",
+                "uuid": "4234f918-dff3-45cf-80e5-807e8ffbab14",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "113718e3-753a-453b-aa6a-1740a13df239",
-              "5bbcd970-7aab-47cb-a4e5-5aeb314c8578",
-              "75c780c9-c254-4f81-854c-4f3565e0f533"
+              "32cbe64d-6ce7-427c-b297-1ad066da9d9b",
+              "83929344-a1c4-4651-9d01-54f6e56f0f34",
+              "4234f918-dff3-45cf-80e5-807e8ffbab14"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
             "duration": 0,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          },
+          {
+            "uuid": "3021519f-0080-417c-a563-09d805008cb7",
+            "title": "#csv-datadriven-test",
+            "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-datadriven-test.js",
+            "file": "/test/axios-datadriven-test.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "test",
+                "fullTitle": "Data-driven Tests #csv-datadriven-test test",
+                "timedOut": false,
+                "duration": 5,
+                "state": "passed",
+                "speed": "fast",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "csv().fromFile('test-data.csv').then(test_data => {\n    data_driven(test_data, function () {\n        it('should return -1 when the csv-data-driven value is not present', function (passedValue) {\n            softAssert.softAssert((-1, [1, 2, 5].indexOf(passedValue.value)))\n        });\n        console.log(test_data);\n    });\n});",
+                "err": {},
+                "isRoot": false,
+                "uuid": "2444f418-4315-4b09-9524-f25b9a335a3b",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "2444f418-4315-4b09-9524-f25b9a335a3b"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 5,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -195,7 +279,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "1dfeca12-ddeb-4d6b-b537-b49705ec3d55",
+        "uuid": "3ef93a9b-79b9-402d-8c6c-3f3bb6af68ec",
         "title": "Axios Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
         "file": "/test/axios-sample-test.js",
@@ -204,7 +288,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "51774a4b-e41e-4c40-99db-347aa34332ad",
+            "uuid": "56b54f54-4b9a-4485-815e-e315796cee78",
             "title": "#indexOf()",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
             "file": "/test/axios-sample-test.js",
@@ -224,7 +308,7 @@
                 "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                 "err": {},
                 "isRoot": false,
-                "uuid": "ba91ceb7-9013-4ca4-98ae-4a7770574ebd",
+                "uuid": "3d67f579-d238-4242-b958-8afe7e5b1ce7",
                 "isHook": false,
                 "skipped": false
               },
@@ -241,15 +325,15 @@
                 "code": "assert.equal([1, 2, 3].indexOf(3), 2)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "1c4d8a95-b902-4ffb-b6d0-d1c9b449a089",
+                "uuid": "72cc816b-2a71-4277-b46a-08424095a2e9",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "ba91ceb7-9013-4ca4-98ae-4a7770574ebd",
-              "1c4d8a95-b902-4ffb-b6d0-d1c9b449a089"
+              "3d67f579-d238-4242-b958-8afe7e5b1ce7",
+              "72cc816b-2a71-4277-b46a-08424095a2e9"
             ],
             "failures": [],
             "pending": [],
@@ -260,7 +344,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "35f91493-3616-4a00-9a77-6f17749a6f39",
+            "uuid": "40a97804-aeb8-4388-90ea-d80552371a19",
             "title": "#pokemon-get",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-sample-test.js",
             "file": "/test/axios-sample-test.js",
@@ -271,7 +355,7 @@
                 "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "fullTitle": "Axios Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "timedOut": false,
-                "duration": 252,
+                "duration": 359,
                 "state": "passed",
                 "speed": "slow",
                 "pass": true,
@@ -280,19 +364,19 @@
                 "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        expect(response.data.abilities[0].ability.name).to.equal('lightning-rod');\n        expect(response.data.abilities[0].ability.url).to.equal('https://pokeapi.co/api/v2/ability/31/');\n        // assert.equals(response.abilities[0].ability.name, 'lightning-rod');\n    });",
                 "err": {},
                 "isRoot": false,
-                "uuid": "f4dd2815-67d1-4fd6-923e-a2894aca3692",
+                "uuid": "bb1c2d55-07a0-4218-badc-060e0d8c164f",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "f4dd2815-67d1-4fd6-923e-a2894aca3692"
+              "bb1c2d55-07a0-4218-badc-060e0d8c164f"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 252,
+            "duration": 359,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -308,7 +392,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "ea52d1e9-163f-4bf8-ab15-9bafe6ebbcf2",
+        "uuid": "feac0d32-c0ec-4e5f-8a6d-d450116dd11d",
         "title": "Soft-Assert Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-soft-assert-test.js",
         "file": "/test/axios-soft-assert-test.js",
@@ -317,7 +401,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "4d604a06-ea4f-45eb-ad02-b0f218a6cb31",
+            "uuid": "372d68de-04d3-4dd7-bb2b-f0cc90640f0f",
             "title": "#pokemon-get",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-sample/test/axios-soft-assert-test.js",
             "file": "/test/axios-soft-assert-test.js",
@@ -328,7 +412,7 @@
                 "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "fullTitle": "Soft-Assert Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "timedOut": false,
-                "duration": 194,
+                "duration": 217,
                 "state": "passed",
                 "speed": "slow",
                 "pass": true,
@@ -337,19 +421,19 @@
                 "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        softAssert.softAssert(response.data.abilities[0].ability.name, 'lightning-rod', 'name expected is lightning-rod', true);\n        softAssert.softAssert(response.data.abilities[0].ability.url, 'https://pokeapi.co/api/v2/ability/31/', 'url expected is https://pokeapi.co/api/v2/ability/31/', true);\n        softAssert.softAssertAll();\n    });",
                 "err": {},
                 "isRoot": false,
-                "uuid": "4fdf1ac8-a852-422c-952b-134a58bd444e",
+                "uuid": "1656cd79-ea2c-48ea-ac94-888e1da7b908",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "4fdf1ac8-a852-422c-952b-134a58bd444e"
+              "1656cd79-ea2c-48ea-ac94-888e1da7b908"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 194,
+            "duration": 217,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -368,10 +452,14 @@
     "passes": [],
     "failures": [],
     "pending": [],
-    "skipped": [],
+    "skipped": [
+      "af8c70f8-2e10-4869-93f2-15fd924cce31",
+      "2a3ffce3-1812-4ad6-beae-dcc409523bd4",
+      "d48f3507-fbfe-47b8-9694-b2374f2c0d9f"
+    ],
     "duration": 0,
     "root": true,
-    "rootEmpty": true,
+    "rootEmpty": false,
     "_timeout": 2000
   },
   "copyrightYear": 2019

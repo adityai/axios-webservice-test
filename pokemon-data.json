@@ -1,0 +1,5 @@
+
+[
+  {"uri": "https://pokeapi.co/api/v2/pokemon/25", "expected": "lightning-rod"},
+  {"uri": "https://pokeapi.co/api/v2/pokemon/31", "expected": "lightning-rod"}
+]

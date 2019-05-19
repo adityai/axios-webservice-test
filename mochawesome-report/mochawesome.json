@@ -1,15 +1,15 @@
 {
   "stats": {
-    "suites": 8,
-    "tests": 10,
-    "passes": 10,
+    "suites": 9,
+    "tests": 14,
+    "passes": 13,
     "pending": 0,
-    "failures": 0,
-    "start": "2019-05-19T22:42:32.437Z",
-    "end": "2019-05-19T22:42:32.929Z",
-    "duration": 492,
-    "testsRegistered": 10,
-    "passPercent": 100,
+    "failures": 1,
+    "start": "2019-05-19T23:14:25.032Z",
+    "end": "2019-05-19T23:14:26.394Z",
+    "duration": 1362,
+    "testsRegistered": 14,
+    "passPercent": 92.9,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "b5e8dcc8-7f57-41ac-917e-e17f0fe007f8",
+    "uuid": "37c5ec24-bfbb-4310-a78f-3bd666c74e42",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "7f945711-81e0-430e-9a13-eca84325037e",
+        "uuid": "3a2cf23b-2dd9-4cbb-bc48-2c70f454e906",
         "title": "Data-driven Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js",
         "file": "/test/axios-datadriven-test.js",
@@ -37,7 +37,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "13cf00ce-121d-402e-a139-21eeda9de9a8",
+            "uuid": "f2cf13c8-fe51-4d16-b183-733bdc9d1a0f",
             "title": "#simple-datadriven-test",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js",
             "file": "/test/axios-datadriven-test.js",
@@ -57,7 +57,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "9e4b6f2b-f1c8-41e7-b367-d8e074f53491",
+                "uuid": "7eb3bf55-45dd-4ed3-a0fe-378d5ecf7e39",
                 "isHook": false,
                 "skipped": false
               },
@@ -74,7 +74,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "7ada5b49-2b22-44ce-8902-6581004ae98f",
+                "uuid": "7011b62e-af84-4d72-a99e-e40ae810a1ff",
                 "isHook": false,
                 "skipped": false
               },
@@ -82,7 +82,7 @@
                 "title": "should return -1 when the data-driven value is not present",
                 "fullTitle": "Data-driven Tests #simple-datadriven-test should return -1 when the data-driven value is not present",
                 "timedOut": false,
-                "duration": 0,
+                "duration": 1,
                 "state": "passed",
                 "speed": "fast",
                 "pass": true,
@@ -91,27 +91,27 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "835d4303-7480-47f5-8cad-34c9b57437bd",
+                "uuid": "1dff8107-5c9a-4bf9-91cc-6f1a24af4cbc",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "9e4b6f2b-f1c8-41e7-b367-d8e074f53491",
-              "7ada5b49-2b22-44ce-8902-6581004ae98f",
-              "835d4303-7480-47f5-8cad-34c9b57437bd"
+              "7eb3bf55-45dd-4ed3-a0fe-378d5ecf7e39",
+              "7011b62e-af84-4d72-a99e-e40ae810a1ff",
+              "1dff8107-5c9a-4bf9-91cc-6f1a24af4cbc"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 3,
+            "duration": 4,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
           },
           {
-            "uuid": "3e5b5a27-9825-4dc0-bc23-159b1a9c53f4",
+            "uuid": "7455cb63-e393-46d8-a7ee-6b0d90020bb8",
             "title": "#json-datadriven-test",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js",
             "file": "/test/axios-datadriven-test.js",
@@ -131,7 +131,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "4b11018d-81e4-4827-a7c4-378f0fffcc41",
+                "uuid": "93e42a2b-3563-4587-b4e8-a79eae0402fd",
                 "isHook": false,
                 "skipped": false
               },
@@ -148,7 +148,7 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "3c538976-aa9c-4f09-9d89-5b111fb82686",
+                "uuid": "381225db-994d-41b4-a9b1-247212e8265b",
                 "isHook": false,
                 "skipped": false
               },
@@ -165,21 +165,113 @@
                 "code": "return f.call(this,testData)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "c48030b7-e6b0-4c39-8ac6-784b51dc0ff9",
+                "uuid": "953d259c-ee2f-4916-8361-b1d19621a4d2",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "4b11018d-81e4-4827-a7c4-378f0fffcc41",
-              "3c538976-aa9c-4f09-9d89-5b111fb82686",
-              "c48030b7-e6b0-4c39-8ac6-784b51dc0ff9"
+              "93e42a2b-3563-4587-b4e8-a79eae0402fd",
+              "381225db-994d-41b4-a9b1-247212e8265b",
+              "953d259c-ee2f-4916-8361-b1d19621a4d2"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
             "duration": 0,
+            "root": false,
+            "rootEmpty": false,
+            "_timeout": 2000
+          },
+          {
+            "uuid": "e6e9f4a2-2427-4eff-9e17-6e545c53dd5a",
+            "title": "#pokemon-datadriven-test",
+            "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js",
+            "file": "/test/axios-datadriven-test.js",
+            "beforeHooks": [],
+            "afterHooks": [],
+            "tests": [
+              {
+                "title": "should be lightning-rod",
+                "fullTitle": "Data-driven Tests #pokemon-datadriven-test should be lightning-rod",
+                "timedOut": false,
+                "duration": 266,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return f.call(this,testData)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "faea80a9-9111-4e89-94a6-64143a75c8f3",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "should be lightning-rod",
+                "fullTitle": "Data-driven Tests #pokemon-datadriven-test should be lightning-rod",
+                "timedOut": false,
+                "duration": 228,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return f.call(this,testData)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "18622fe9-56e0-4d31-bea0-f24545c9e5d5",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "should be lightning-rod",
+                "fullTitle": "Data-driven Tests #pokemon-datadriven-test should be lightning-rod",
+                "timedOut": false,
+                "duration": 213,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return f.call(this,testData)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "582930df-8464-47f3-95b6-01acbd2159e6",
+                "isHook": false,
+                "skipped": false
+              },
+              {
+                "title": "should be lightning-rod",
+                "fullTitle": "Data-driven Tests #pokemon-datadriven-test should be lightning-rod",
+                "timedOut": false,
+                "duration": 217,
+                "state": "passed",
+                "speed": "slow",
+                "pass": true,
+                "fail": false,
+                "pending": false,
+                "code": "return f.call(this,testData)",
+                "err": {},
+                "isRoot": false,
+                "uuid": "740d0372-24d8-44c0-b714-a5567a2b46bf",
+                "isHook": false,
+                "skipped": false
+              }
+            ],
+            "suites": [],
+            "passes": [
+              "faea80a9-9111-4e89-94a6-64143a75c8f3",
+              "18622fe9-56e0-4d31-bea0-f24545c9e5d5",
+              "582930df-8464-47f3-95b6-01acbd2159e6",
+              "740d0372-24d8-44c0-b714-a5567a2b46bf"
+            ],
+            "failures": [],
+            "pending": [],
+            "skipped": [],
+            "duration": 924,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -195,7 +287,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "07be37ca-097e-432a-a56d-0f9c9582a7af",
+        "uuid": "a01f5ae1-b401-4e75-8a64-5cc9381ca0ad",
         "title": "Axios Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-sample-test.js",
         "file": "/test/axios-sample-test.js",
@@ -204,7 +296,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "f39015c1-bf82-4160-8b6b-3966ab6d59b1",
+            "uuid": "28e3f5c9-d630-4b70-b88f-29b78b05efdb",
             "title": "#indexOf()",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-sample-test.js",
             "file": "/test/axios-sample-test.js",
@@ -224,7 +316,7 @@
                 "code": "assert.equal([1, 2, 3].indexOf(4), -1);",
                 "err": {},
                 "isRoot": false,
-                "uuid": "2fbfa2c3-6e99-42f2-a18c-1286634a4ed9",
+                "uuid": "a8c31ca1-5c3c-4620-89bf-cd0c77b2a56e",
                 "isHook": false,
                 "skipped": false
               },
@@ -241,15 +333,15 @@
                 "code": "assert.equal([1, 2, 3].indexOf(3), 2)",
                 "err": {},
                 "isRoot": false,
-                "uuid": "c0c97da3-b12c-485f-ab82-81018fba0cc7",
+                "uuid": "e1033d91-bb9d-4182-bfba-9259bd966b78",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "2fbfa2c3-6e99-42f2-a18c-1286634a4ed9",
-              "c0c97da3-b12c-485f-ab82-81018fba0cc7"
+              "a8c31ca1-5c3c-4620-89bf-cd0c77b2a56e",
+              "e1033d91-bb9d-4182-bfba-9259bd966b78"
             ],
             "failures": [],
             "pending": [],
@@ -260,7 +352,7 @@
             "_timeout": 2000
           },
           {
-            "uuid": "ce0626e7-138e-4d7a-9142-5d3bc5c4e1c6",
+            "uuid": "e3b48b83-1c86-4d00-b386-eb5a8f9f20e2",
             "title": "#pokemon-get",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-sample-test.js",
             "file": "/test/axios-sample-test.js",
@@ -271,7 +363,7 @@
                 "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "fullTitle": "Axios Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "timedOut": false,
-                "duration": 262,
+                "duration": 209,
                 "state": "passed",
                 "speed": "slow",
                 "pass": true,
@@ -280,19 +372,19 @@
                 "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        expect(response.data.abilities[0].ability.name).to.equal('lightning-rod');\n        expect(response.data.abilities[0].ability.url).to.equal('https://pokeapi.co/api/v2/ability/31/');\n        // assert.equals(response.abilities[0].ability.name, 'lightning-rod');\n    });",
                 "err": {},
                 "isRoot": false,
-                "uuid": "0594eff6-84f0-406c-91fe-e3c6f98058b9",
+                "uuid": "bb21387f-183f-4e6a-ac29-8a3a149729a4",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
             "passes": [
-              "0594eff6-84f0-406c-91fe-e3c6f98058b9"
+              "bb21387f-183f-4e6a-ac29-8a3a149729a4"
             ],
             "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 262,
+            "duration": 209,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000
@@ -308,7 +400,7 @@
         "_timeout": 2000
       },
       {
-        "uuid": "0dcf80d0-8785-435b-8345-fdd437dc86a6",
+        "uuid": "36f7f3be-7d9d-46b3-8818-b73cc8fa2aaf",
         "title": "Soft-Assert Tests",
         "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-soft-assert-test.js",
         "file": "/test/axios-soft-assert-test.js",
@@ -317,7 +409,7 @@
         "tests": [],
         "suites": [
           {
-            "uuid": "85cb6595-942e-4a8d-b5aa-8503f292c1bb",
+            "uuid": "66e04332-0c57-4f67-baff-dcf96e4cd358",
             "title": "#pokemon-get",
             "fullFile": "/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-soft-assert-test.js",
             "file": "/test/axios-soft-assert-test.js",
@@ -328,28 +420,30 @@
                 "title": "should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "fullTitle": "Soft-Assert Tests #pokemon-get should be lightning-rod and url is https://pokeapi.co/api/v2/ability/31",
                 "timedOut": false,
-                "duration": 205,
-                "state": "passed",
-                "speed": "slow",
-                "pass": true,
-                "fail": false,
+                "duration": 202,
+                "state": "failed",
+                "pass": false,
+                "fail": true,
                 "pending": false,
                 "code": "return axios.get('https://pokeapi.co/api/v2/pokemon/25')\n    .then(response => {\n        softAssert.softAssert(response.data.abilities[0].ability.name, 'lightning-rod', 'name expected is lightning-rod', true);\n        softAssert.softAssert(response.data.abilities[0].ability.url, 'https://pokeapi.co/api/v2/ability/31/', 'url expected is https://pokeapi.co/api/v2/ability/31/', true);\n        softAssert.softAssertAll();\n    });",
-                "err": {},
+                "err": {
+                  "message": "AssertionError: \n\nSoft assertion  8:\n\n\t1 : key -> $ \t\t message: expected 'lightning-rod' to deeply equal 'sheer-force'\nStack: AssertionError: \n\t1 : key -> $ \t\t message: expected 'lightning-rod' to deeply equal 'sheer-force'\n\n    ,_chaiDeepEqual (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:284:20)\n    ,_assert (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:148:23)\n    ,_prepareAndAssert (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:344:12)\n     (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/assertion.js:64:12)\n    at axios.get.then.response (/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js:37:40)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)\n\nSoft assertion  10:\n\n\t1 : key -> $ \t\t message: expected 'lightning-rod' to deeply equal 'sheer-force'\nStack: AssertionError: \n\t1 : key -> $ \t\t message: expected 'lightning-rod' to deeply equal 'sheer-force'\n\n    ,_chaiDeepEqual (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:284:20)\n    ,_assert (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:148:23)\n    ,_prepareAndAssert (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/helper/assertion-helper.js:344:12)\n     (/Users/adityai/nodejs-workspace/axios-webservice-test/node_modules/soft-assert/lib/assertion.js:64:12)\n    at axios.get.then.response (/Users/adityai/nodejs-workspace/axios-webservice-test/test/axios-datadriven-test.js:37:40)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)",
+                  "diff": " {\n-   \"Soft assertion 10\": \"lightning-rod\"\n-   \"Soft assertion 8\": \"lightning-rod\"\n+   \"Soft assertion 10\": \"sheer-force\"\n+   \"Soft assertion 8\": \"sheer-force\"\n }\n"
+                },
                 "isRoot": false,
-                "uuid": "a680ab8d-4c06-4323-a705-5d0aec75bb8e",
+                "uuid": "48b91702-f495-4c47-8090-97d9821d8f2c",
                 "isHook": false,
                 "skipped": false
               }
             ],
             "suites": [],
-            "passes": [
-              "a680ab8d-4c06-4323-a705-5d0aec75bb8e"
+            "passes": [],
+            "failures": [
+              "48b91702-f495-4c47-8090-97d9821d8f2c"
             ],
-            "failures": [],
             "pending": [],
             "skipped": [],
-            "duration": 205,
+            "duration": 202,
             "root": false,
             "rootEmpty": false,
             "_timeout": 2000

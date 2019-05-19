@@ -25,22 +25,6 @@ describe('Data-driven Tests', function() {
             });
         });
     });
-
-    // TODO: Needs more work. Unable to iterate over the json data
-    describe('#csv-datadriven-test', function (done) {
-        // describe('csv-data-test', function (done) {
-        it('test', function () {
-            csv().fromFile('test-data.csv').then(test_data => {
-                data_driven(test_data, function () {
-                    it('should return -1 when the csv-data-driven value is not present', function (passedValue) {
-                        softAssert.softAssert((-1, [1, 2, 5].indexOf(passedValue.value)))
-                    });
-                    console.log(test_data);
-                });
-            });
-        });
-        // });
-
-    });
+    
 });
 
